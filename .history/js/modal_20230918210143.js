@@ -7,7 +7,7 @@ function SinhVien(ma, ten, matKhau, email, toan, ly, hoa) {
     this.ly = ly;
     this.hoa = hoa;
     this.tinhDTB = function() {
-      var dtb = (this.toan + this.ly + this.hoa) / 3;
+      var dtb = (this.toan + this.ly + this.hoa) / 4;
       return dtb;
     }
 }
